@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop KI</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCjGuV_KYQxys4ZKyY3VB2rYd6j8C3u4ZtAg&usqp=CAU" type="image/x-icon" />
+
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header__navbar-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Shop Kl</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <div class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px; color: blue; ">
+                        <li class="nav-item ">
+                            <a class="nav-link active nav-item-firts" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <div class="nav-item-dropdown-toggle">
+                            <a class="nav-link dropdown-toggle" href="#sanpham" role="button" data-bs-toggle="dropdown" aria-current="page">
+                              Sản phẩm
+                            </a>
+                            <li class="nav-item dropdown ">
+                                <ul class="dropdown-menu nav-item-dropdown-content">
+                                    <li><a class="dropdown-item" href="#dienthoai">Điện thoại</a></li>
+                                    <li><a class="dropdown-item" href="#laptop">Laptop</a></li>
+                                    <li><a class="dropdown-item" href="#mayin">Máy in</a></li>
+                                    <li><a class="dropdown-item" href="#tainghe">Tai nghe</a></li>
+
+                                </ul>
+                            </li>
+                        </div>
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page " href="#gioithieu ">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page " href="#lienhe ">Liên hệ</a>
+                        </li>
+                    </div>
+                    <form class="d-flex " role="search ">
+                        <input class="form-control me-2 " type="search " placeholder="Search " aria-label="Search ">
+                        <button class="btn btn-outline-success bg-dark text-white border-0" type="submit ">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+    </div>
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="caroul--ite-actv">
+                <img src="./assets/images/home-carousel/slider1.jpg" class="d-block w-100" alt="slider1">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/home-carousel/slider2.jpg" class="d-block w-100" alt="slider2">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/home-carousel/slider1.jpg" class="d-block w-100" alt="slider3">
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Main-->
+    <div class="main-content-list" id="main--cotn-list">
+
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col-6 col-lg-3 ">
+                    <div class="policy-item  d-flex flex-wrap align-items-center">
+                        <p class="main-content-icon"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+                            <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"/>
+                          </svg></p>
+                    </div>
+                    <div class="policy-des">
+                        <h2 class="main-content-name">Miễn phí giao hàng</h2>
+                        <p class="main-content-description">Cho đơn hàng từ 500k </p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 ">
+                    <div class="policy-item  d-flex flex-wrap align-items-center">
+                        <p class="main-content-icon"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                            <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+                            </svg></p>
+                    </div>
+                    <div class="policy-des">
+                        <h2 class="main-content-name">Hoàn tiền</h2>
+                        <p class="main-content-description">100% trong 30 ngày</p>
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 ">
+                    <div class="policy-item  d-flex flex-wrap align-items-center">
+                        <p class="main-content-icon"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                            <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+                          </svg></p>
+                    </div>
+                    <div class="policy-des">
+                        <h2 class="main-content-name">Hỗ trợ 24/7</h2>
+                        <p class="main-content-description">Hỗ trợ nhanh chóng</p>
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 ">
+                    <div class="policy-item  d-flex flex-wrap align-items-center">
+                        <p class="main-content-icon"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-minecart" viewBox="0 0 16 16">
+                            <path d="M4 15a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8-1a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM.115 3.18A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 14 12H2a.5.5 0 0 1-.491-.408l-1.5-8a.5.5 0 0 1 .106-.411zm.987.82 1.313 7h11.17l1.313-7H1.102z"/>
+                          </svg></p>
+                    </div>
+                    <div class="policy-des">
+                        <h2 class="main-content-name">Giao hàng nhanh</h2>
+                        <p class="main-content-description">Dịch vụ tốt nhất </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="ctn">
+        <!--container-->
+        <div class="card-name " id="ctn--crd-nem">
+            <span class="card-name-product">Sản phẩm</span><br>
+            <span class="card-name-description">Cập nhật những sản phẩm mới nhất</span>
+        </div>
+        <!--dien thoai-->
+        <h4>
+
+            <p class="card-container--name-product" id="dienthoai"> Điện thoại</p>
+        </h4>
+        <div class="card-phone" id="crd-pone-lis">
+
+            <div class="card card-list-product " id="card--prodc-litt" style="width: 18rem;">
+
+                <img src="./assets/images/home-product/8-3.jpg" class="card-img-top" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">Asus Phone </h6>
+                    <p class="card-text"> 18.950.000 <span class="cart-text--color">đ</span></p>
+                    <button id="myBtn" style="border: none;"><a href="#" class="btn btn-primary">Chọn mua</a></button>
+                    <!--modal-->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content " id="modal--ctn-respons">
+                            <span class="close"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-x" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                              </svg></span>
+                            <h2>
+                                <p>Điện thoại</p>
+                            </h2>
+                            <div class="container text-center" id="ctn--modal-list">
+                                <div class="row" id="modal--row-respons">
+                                    <div class="col order-first" id="modal--img-respon">
+                                        <img src="./assets/images/home-product/8-3.jpg" class="img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="col" id="modal--img-respon">
+                                        <img src="./assets/images/home-product/ausushong.jpg" class="img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="col order-last">
+                                        <li class="order-text">Asus Phone</li>
+                                        <li class="star-rating">
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg></p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg></p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg></p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                              </svg></p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                                                <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                              </svg></p>
+                                        </li>
+                                        <!--check radio label-->
+                                        <div class="list--check-form">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  <p>Màu xám</p>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                  <p>Màu hồng</p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <!--quantify decrease and increase-->
+                                        <div class="dec-and-in">
+                                            <p style="text-align: left;">Số lượng:</p>
+                                            <form class="box--incre-decre-form">
+
+                                                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                                                <input type="number" id="number" value="0" />
+                                                <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                                            </form>
+                                        </div>
+                                        <!--button buy and add to cart-->
+                                        <div class="btn-tolbar">
+                                            <Button class="btn-check-buy">Mua ngay</Button>
+                                            <Button class="btn-check-add">Thêm vào giỏ</Button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card  " style="width: 18rem;">
+                <img src="./assets/images/home-product/6-1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Huawei</h6>
+                    <p class="card-text">9.150.000 <span class="cart-text--color">đ</span></p>
+                    <button id="myBtn" style="border: none;"><a href="#" class="btn btn-primary">Chọn mua</a></button>
+                    <!--modal-->
+                    <div id="myModal" class="modal">
+                        <div class="modal-content ">
+                            <span class="close"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg></span>
+                            <h2>
+                                <p>Điện thoại</p>
+                            </h2>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col order-first">
+                                        <img src="./assets/images/home-product/8-3.jpg" class="img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="col">
+                                        <img src="./assets/images/home-product/ausushong.jpg" class="img-thumbnail" alt="...">
+                                    </div>
+                                    <div class="col order-last">
+                                        <li class="order-text">Asus Phone</li>
+                                        <li class="star-rating">
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg></p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg></p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg></p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg></p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                            <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                          </svg></p>
+                                        </li>
+                                        <!--check radio label-->
+                                        <div class="list--check-form">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                              <p>Màu xám</p>
+                            </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                              <p>Màu hồng</p>
+                            </label>
+                                            </div>
+                                        </div>
+                                        <!--quantify decrease and increase-->
+                                        <div class="dec-and-in">
+                                            <p style="text-align: left;">Số lượng:</p>
+                                            <form class="box--incre-decre-form">
+
+                                                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                                                <input type="number" id="number" value="0" />
+                                                <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                                            </form>
+                                        </div>
+                                        <!--button buy and add to cart-->
+                                        <div class="btn-tolbar">
+                                            <Button class="btn-check-buy">Mua ngay</Button>
+                                            <Button class="btn-check-add">Thêm vào giỏ</Button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card  " style="width: 18rem;">
+                <img src="./assets/images/home-product/4-1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Xiao Mi 8</h6>
+                    <p class="card-text">70.999.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="card card-list-product " style="width: 18rem;">
+
+                <img src="./assets/images/home-product/17-1.jpg" class="card-img-top" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">Vivo </h6>
+                    <p class="card-text"> 10.000.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem;">
+                <img src="./assets/images/home-product/7-1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Sony</h6>
+                    <p class="card-text">5.150.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card  " style="width: 18rem;">
+                <img src="./assets/images/home-product/4-1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Oppo</h6>
+                    <p class="card-text">7.000.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Laptop-->
+        <div class="card-laptop" id="crd-pone-lis">
+            <h4>
+                <p class="card-container--laptop-product" id="laptop">Laptop</p>
+            </h4>
+            <div class="card card-list-product " style="width: 18rem;">
+
+                <img src="./assets/images/home-product/MJVG2.jpg" class="card-img-top" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">MacBook Air 13 </h6>
+                    <p class="card-text"> 35.100.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card  " style="width: 18rem;">
+
+                <img src="./assets/images/home-product/laptop-hp-victus-16_3.png" class="card-img-top" style="height: 222px;" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">Victus 16.1</h6>
+                    <p class="card-text"> 18.950.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card  " style="width: 18rem;">
+
+                <img src="./assets/images/home-product/macbook_PNG26.png" class="card-img-top" style="height: 222px;" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">MacBook Pro </h6>
+                    <p class="card-text"> 30.000.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="card  card-list-product" style="width: 18rem;">
+
+                <img src="./assets/images/home-product/asus vivobook.jpg" class="card-img-top" style="height: 222px;" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">Asus VivoBook </h6>
+                    <p class="card-text"> 15.000.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+
+            </div>
+            <div class="card  " style="width: 18rem;">
+
+                <img src="./assets/images/home-product/dell-1.jpg" class="card-img-top" style="height: 222px;" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">Dell</h6>
+                    <p class="card-text"> 15.150.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card  " style="width: 18rem;">
+
+                <img src="./assets/images/home-product/thinkpad.png" class="card-img-top" style="height: 222px;" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">Lenovo Thinkpad</h6>
+                    <p class="card-text"> 33.299.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+        </div>
+        <div class="blog-lap-ph--color">
+
+            <div class="blog-laptop-phone">
+                <div class="blog-image-list" id="blog-blog-blog">
+                    <div class="img-first" id="blog--img-fir">
+                        <img src="./assets/images/home-blog/man-hinh.jpg" alt="">
+                    </div>
+                    <div class="img-second" id="blog--img-sec">
+                        <img src="./assets/images/home-blog/blog-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--máy in-->
+        <div class="card-print" id="crd-pone-lis">
+            <h4>
+                <p class="card-container--print-product" id="mayin">Máy in</p>
+            </h4>
+            <div class="card card-list-product " style="width: 18rem;">
+
+                <img src="./assets/images/home-product/Canon-LBP621CW.jpeg" class="card-img-top" alt="">
+                <div class="card-body ">
+                    <h6 class="card-title">Canon LBP621CW </h6>
+                    <p class="card-text"> 7.200.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card  " style="width: 18rem;">
+                <img src="./assets/images/home-product/3977_canon_2900.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">Laser Canon LBP 2900</h6>
+                    <p class="card-text">3.999.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card  " style="width: 18rem;">
+                <img src="./assets/images/home-product/may-in-hp-neverstop-laser-1000w-1091-1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title">HP NEVERSTOP LASER</h6>
+                    <p class="card-text">2.989.000 <span class="cart-text--color">đ</span></p>
+                    <a href="#" class="btn btn-primary">Chọn mua</a>
+                </div>
+            </div>
+        </div>
+
+        <!--tai nghe-->
+        <div class="card-headphone headphone-in--thecard" id="crd-pone-lis">
+            <h4>
+                <p class="card-container--headphone-product" id="tainghe">Tai nghe</p>
+            </h4>
+            <div class="card card-list-product " style="width: 18rem;">
+
+                <img src="./assets/images/home-product/637224540254050984_anh-dai-dien.jpg " class=" card-img-top " alt=" ">
+                <div class="card-body ">
+                    <h6 class="card-title ">CORSAIR</h6>
+                    <p class="card-text "> 199.000 <span class="cart-text--color ">đ</span></p>
+                    <a href="# " class="btn btn-primary ">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem; ">
+                <img src="./assets/images/home-product/headphones-700.jpg " class="card-img-top " alt=" ">
+                <div class="card-body ">
+                    <h6 class="card-title ">Bose Headphone 700</h6>
+                    <p class="card-text ">10.990.000<span class="cart-text--color ">đ</span></p>
+                    <a href="# " class="btn btn-primary ">Chọn mua</a>
+                </div>
+            </div>
+            <div class="card " style="width: 18rem; ">
+                <img src="./assets/images/home-product/headphone-bluetooth-beats-solo-2-hd-s450_5.jpg " class="card-img-top " style="height: 237px;" alt=" ">
+                <div class="card-body ">
+                    <h6 class="card-title ">Bluetooth Beats Solo 2</h6>
+                    <p class="card-text ">350.000 <span class="cart-text--color ">đ</span></p>
+                    <a href="# " class="btn btn-primary ">Chọn mua</a>
+                </div>
+            </div>
+        </div>
+        <div class="blog-lap-ph--color">
+
+            <div class="blog-laptop-phone">
+                <div class="blog-image-list" id="blog-blog-blog">
+                    <div class="img-first" id="blog--img-fir">
+                        <img src="./assets/images/home-blog/mayin.jpg" alt="">
+                    </div>
+                    <div class="img-second" id="blog--img-sec">
+                        <img src="./assets/images/home-blog/phoneblog.ipg.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--giới thiệu-->
+        <div class="container-introduce--shop">
+            <div class=" card-name " id="crd--namm-pro">
+                <span class="card-name-product " id="gioithieu">Giới thiệu</span>
+
+            </div>
+            <p class="intro-text " id="ctn--intr-txt">Cửa hàng đã mở được 2 năm, và mở rộng nhiều chi nhánh trên toàn quốc, ví dụ như: Hà Nội , Đà Nẵng ,Sài Gòn. Luôn cập nhật các sản phẩm uy tín, chất lượng, giá thành tốt cho tới người tiêu dùng. Ngoài ra,khi khách hàng mua sản phẩm ở cửa hàng
+                chúng tôi sẽ được giảm 15% và được bảo hành 2 năm.
+            </p>
+        </div>
+        <!--liên hệ-->
+
+        <div class="container-contact--shop">
+            <div class="container text-center" id="cont--txt-xenn">
+
+                <div class="row justify-content-center">
+
+                    <div class="col-4 box-info-contact" style="width:561px; height:408px;">
+                        <h5>
+                            <p class="text--contact" id="lienhe" style="margin-left: 45px;">Liên hệ</p>
+                        </h5>
+
+                        <ul class="list-info">
+                            <li>
+                                <p>Địa chỉ chúng tôi</p>
+                                <strong>Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.</strong>
+                            </li>
+                            <li>
+                                <p>Email chúng tôi</p>
+                                <strong>lienkhanhthitran@gmail.com</strong>
+                            </li>
+                            <li>
+                                <p>Điện thoại</p>
+                                <strong>038384154</strong>
+                            </li>
+                            <li>
+                                <p>Thời gian làm việc</p>
+                                <strong>Thứ 2 đến Thứ 6 từ 8h đến 18h</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4 " id="colum-contact">
+                        <h5>
+                            <p class="text--contact">
+                                Gửi thắc mắc cho chúng tôi
+                            </p>
+                        </h5>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Tên của bạn</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tên của bạn">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email của bạn</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Số điện thoại</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Số điện thoại">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Nội dung</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="button-btn-responsive">Gửi cho chúng tôi</button>
+                    </div>
+
+                </div>
+
+                <div class="ifr-map" id="google--map-of-shop">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6069503680783!2d106.65360351458894!3d10.764744792329477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eeb7f7d2d7d%3A0x17921408a3516ecd!2sPARKSON%20Flemington!5e0!3m2!1svi!2s!4v1675105009711!5m2!1svi!2s"
+                        width="1000" height="452" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class=" list--icon-contact-sticky" id="sticky-respons">
+            <ul class="icon-ctax">
+                <li>
+                    <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg></a>
+                </li>
+                <li>
+                    <a href="https://wwww.messenger.com/"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+            <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+          </svg></a></li>
+                <li>
+                    <a href="https://twitter.com/?lang=vi"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg></a></li>
+                <li>
+                    <a href="https://www.whatsapp.com/?lang=vi"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg></a></li>
+            </ul>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="container text-center footer--last-cont" id="footer-responsive">
+
+                <div class="row" id="row-responsive">
+                    <div class="col">
+                        <p class="text-col">Hệ thống Shopki</p>
+
+                        <ul class="footer--list-li">
+                            <li> <a href="">Chính sách & Quy định chung</a></li>
+                            <li><a href="">Chính sách đổi trả sản phẩm</a></li>
+                            <li><a href="">Chính sách bảo hành</a></li>
+                            <li><a href="">Chính sách giao hàng</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="text-col">Hỗ trợ khách hàng</p>
+                        <ul class="footer--list-li">
+                            <li> <a href="">Hỗ trợ mua hàng trực tuyến</a></li>
+                            <li><a href="">Các hình thức thanh toán</a></li>
+                            <li><a href="">Chính sách bảo hành</a></li>
+                            <li><a href="">Phát hành hóa đơn</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col">
+                        <p class="text-col">Chấp nhận thanh toán</p>
+                        <img src="./assets/images/home-partner/payment.png" style="padding-right: 45%;" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <p class="foot--last">Coppyright © 2023 ShopKI. Powered by Lotus</p>
+
+        </div>
+        <div class="Scroll-Back--To-Top">
+            <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+              </svg>
+        </button>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+<script src="./js.js"></script>
+
+</html>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+<script src="./js.js"></script>
+
+</html>

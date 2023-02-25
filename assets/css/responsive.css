@@ -1,0 +1,127 @@
+/*desktop*/
+
+@media(min-width:1024px) {}
+
+
+/*mobile*/
+
+@media(max-width: 740px) {
+    .header__navbar-header .collapse .navbar-nav {
+        font-size: 1.0rem;
+        font-weight: 400;
+        line-height: 38px;
+        text-transform: uppercase;
+        align-items: flex-start;
+    }
+    #caroul--ite-actv {
+        height: auto;
+    }
+    .main-content-list .row {
+        display: block;
+        margin-left: -121px;
+    }
+    .row .col-lg-3 {
+        padding: 0px 0px 26px 26px;
+        display: grid;
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    #ctn--crd-nem {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 19%;
+    }
+    #dienthoai,
+    #laptop,
+    #mayin,
+    #headphone {
+        margin-left: 33%;
+    }
+    #crd-pone-lis {
+        margin-left: 0;
+    }
+    #blog--img-fir>img,
+    #blog--img-sec>img {
+        float: none;
+        width: 269px;
+        height: 169px;
+        margin-left: 0;
+        margin-right: 0;
+        margin: 20px;
+        top: -33px;
+    }
+    #blog--img-fir>img {
+        margin-top: -37px;
+    }
+    #blog-blog-blog {
+        padding-left: 23px;
+        display: inline-block;
+    }
+    #crd--namm-pro {
+        margin-left: 13%;
+        margin-right: 0;
+    }
+    #ctn--intr-txt {
+        margin: auto;
+        padding: 27px;
+        display: block;
+        margin-top: -33%;
+    }
+    #cont--txt-xenn {
+        margin: auto;
+    }
+    #colum-contact {
+        width: 71.333333%;
+    }
+    #button-btn-responsive {
+        width: 243px;
+    }
+    #google--map-of-shop>iframe {
+        margin-left: -5px;
+        width: 367px;
+        height: 309px;
+        position: relative;
+        top: 0;
+        padding: 31px;
+    }
+    #footer-responsive {
+        position: relative;
+        display: inline-block;
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #fafafa;
+    }
+    #sticky-respons {
+        display: none;
+    }
+    #row-responsive {
+        flex-direction: column;
+    }
+    #btn-back-to-top {
+        margin-bottom: 44px;
+        margin-right: 134px;
+    }
+    #modal--row-respons {
+        flex-direction: column;
+    }
+    #ctn--modal-list {
+        margin: auto;
+        margin-top: -4%;
+    }
+    #modal--img-respon>img {
+        width: 230px;
+    }
+    #modal--img-respon {
+        margin-bottom: 23px;
+        margin-left: 0;
+    }
+    #modal--ctn-respons {
+        margin: 0;
+        width: 72%;
+        background-color: #fefefe;
+        height: 128%;
+    }
+}
